@@ -22,7 +22,7 @@ def reverse_array(integers)
   integers.reverse
 end
 
-def kesha_masker(strings)
+def kesha_maker(strings)
   strings.collect do |string|
     string[2] = "$"
     string
