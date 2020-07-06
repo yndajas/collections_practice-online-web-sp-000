@@ -25,6 +25,5 @@ end
 def kesha_maker(strings)
   strings.collect do |string|
     string[2] = "$"
-    string
   end
 end
