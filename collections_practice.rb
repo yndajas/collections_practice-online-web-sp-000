@@ -1,5 +1,3 @@
-require 'pry'
-
 def sort_array_asc(integers)
   integers.sort
 end
@@ -32,7 +30,6 @@ end
 
 def find_a(strings)
   strings.include do |string|
-    binding.pry
     if string.start_with?("a")
       string
     end
