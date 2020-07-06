@@ -37,3 +37,11 @@ end
 def sum_array(integers)
   integers.inject(:+)
 end
+
+def add_s(array)
+  array.each_with_index.collect do |item,index|
+    if index != 1
+      item << "s"
+    end
+  end
+end
