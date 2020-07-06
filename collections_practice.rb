@@ -35,6 +35,6 @@ def find_a(strings)
     binding.pry
     if string.start_with?("a")
       string
-    else
+    end
   end
 end
