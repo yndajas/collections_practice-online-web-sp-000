@@ -21,3 +21,10 @@ end
 def reverse_array(integers)
   integers.reverse
 end
+
+def kesha_masker(strings)
+  strings.collect do |string|
+    string[3] = "$"
+    string
+  end
+end
