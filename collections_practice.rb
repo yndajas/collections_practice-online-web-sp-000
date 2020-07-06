@@ -24,7 +24,7 @@ end
 
 def kesha_masker(strings)
   strings.collect do |string|
-    string[3] = "$"
+    string[2] = "$"
     string
   end
 end
