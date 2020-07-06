@@ -30,7 +30,9 @@ def kesha_maker(strings)
 end
 
 def find_a(strings)
-  strings.collect do |string|
-    string if string.start_with?("a")
+  strings.include do |string|
+    if string.start_with?("a")
+      string
+    else
   end
 end
